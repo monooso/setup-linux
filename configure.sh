@@ -12,7 +12,6 @@ echo "Enter a passphrase for your SSH key:"
 read PASSPHRASE
 
 echo "Enter an email address for your SSH key:"
-echo "(hint: you usually use code@stephenlewis.me)"
 read EMAIL
 
 ssh-keygen \
